@@ -3,7 +3,7 @@ package entities;
 public class CheckingAccount extends Account {
 
     public CheckingAccount() {
-        
+        Super();
     }
 
     public CheckingAccount(Integer number, String holder, Double balance) {
